@@ -1,0 +1,14 @@
+Package: ShinyBricksFuncs
+Title: Fonctions Pour Constuire ShinyBricks
+Version: 0.0.1
+Authors@R: 
+    c(person("Hassan", "TILKI", , "hassan.tilki@etu.univ-tours.fr", role = c("aut", "cre")),
+    person("Corentin", "DUCLOUX", , "corentin.ducloux@etu.univ-tours.fr", role = c("aut")))
+Description: Ce package contient les fonctions permettant d'intéragir avec l'API brickset, d'effectuer du scraping, de nettoyer la base etc.. 
+License: `use_mit_license()`
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Imports: 
+    brickset,
+    dplyr,
+    gt
