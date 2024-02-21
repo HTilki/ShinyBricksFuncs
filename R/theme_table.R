@@ -13,7 +13,7 @@
 theme_table <- function(df_prices, theme){
   return(
     df_prices |>
-      filter(theme %in% c(theme)) |> 
+      filter(theme %in% theme) |> 
       select(
         name,
         set_number,
