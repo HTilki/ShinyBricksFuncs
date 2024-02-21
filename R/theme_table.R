@@ -10,10 +10,10 @@
 #' @importFrom dplyr filter select
 #' @import gt
 #' @export
-theme_table <- function(df_prices, theme){
+theme_table <- function(df_prices, input_theme){
   return(
     df_prices |>
-      filter(theme %in% theme) |> 
+      filter(theme %in% input_theme) |> 
       select(
         name,
         set_number,
