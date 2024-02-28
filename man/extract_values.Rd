@@ -20,5 +20,5 @@ Un tibble représentant le dictionnaire avec les noms de variable et les valeurs
 Cette fonction fait la requête sur le site BrickEconomy en utilisant le lien
 fourni, puis extrait les informations nécessaires pour obtenir un dictionnaire
 avec les noms de variable et les valeurs associées. Elle dépend des autres fonctions
-telles que \code{make_request}, \code{get_keys}, \code{get_values}, et \code{create_dict}.
+telles que `make_request`, `get_keys`, `get_values`, et `create_dict`.
 }

@@ -19,7 +19,7 @@ Objet de réponse de la requête HTTP.
 \description{
 Cette fonction effectue une requête sur le site BrickEconomy en utilisant le lien
 fourni. Elle prend en charge des options telles que le nombre maximum de tentatives
-de requête en cas d'échec (\code{max_retry}) et l'identifiant de ligne (\code{rowid}) pour
+de requête en cas d'échec (`max_retry`) et l'identifiant de ligne (`rowid`) pour
 un suivi clair des liens scrapés. Assurez-vous d'avoir préalablement enregistré
 la clé API, le nom d'utilisateur et le mot de passe dans les options.
 }

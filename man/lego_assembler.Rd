@@ -16,7 +16,7 @@ Un dataframe résultant de la jointure avec les colonnes supplémentaires.
 }
 \description{
 Cette fonction effectue une jointure interne (inner join) entre le dataframe des sets
-(\code{df_sets}) et le dataframe des prix des sets (\code{df_scrap}). La jointure est réalisée
+(`df_sets`) et le dataframe des prix des sets (`df_scrap`). La jointure est réalisée
 en utilisant la colonne "set_number" du dataframe des sets et la colonne "brickeconomy_link"
 du dataframe des prix des sets. Les enregistrements sans prix de détail sont supprimés.
 La fonction ajoute également des colonnes supplémentaires, telles que "diff_new_retail"
