@@ -12,7 +12,7 @@
 #' @return Un dataframe élargi avec les avis spécifiés pour chaque ensemble.
 #' @seealso \code{\link{get_only_ratings}}, \code{\link{get_only_text}}, \code{\link{get_reviews}}
 #' @importFrom dplyr rowwise mutate 
-#' @importFrom tidyr unnest_wider 
+#' @importFrom tidyr unnest_wider unnest_longer
 #' @export
 get_all_reviews <- function(df_sets, type){
   if (type == "ratings"){
