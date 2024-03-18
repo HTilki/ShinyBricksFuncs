@@ -17,7 +17,7 @@
 #' @export
 import_all_parquets <- function(chemin_dossier = "data"){
   
-  parquet_files <- list.files(chemin_dossier, pattern = "\\.parquet$", full.names = TRUE)
+  parquet_files <- list.files(chemin_dossier, pattern = "sets.*\\.parquet$", full.names = TRUE)
   df_sets <- map_dfr(parquet_files, ~ read_parquet(.x))
   df_sets <- df_sets |>
     filter(category %in% c("Normal", "Extended", "Collection")) |>
